@@ -1,0 +1,15 @@
+body{
+    background-color: coral;
+}
+.contenedor{
+    background-color: aquamarine;
+}
+#contenedor_id{
+    background-color: blue;
+}
+.segundo{
+    background-color: chartreuse;
+}
+.tercero{
+    background-color: brown;
+}
