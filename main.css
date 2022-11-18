@@ -1,11 +1,14 @@
 body{
-    background-color: coral;
+    background-color:coral;
 }
-.contenedor{
-    background-color: aquamarine;
+.contenedoretiquetas{
+    style="color:blue;"
+    background-color: aliceblue;
+    background-size: 100px;
 }
 #contenedor_id{
-    background-color: blue;
+    background-color: powderblue;
+    font-style: oblique;
 }
 .segundo{
     background-color: chartreuse;
