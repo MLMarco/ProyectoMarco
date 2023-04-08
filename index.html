@@ -1,9 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Document</title>
-</head>
+<html>
+    <head> 
+<title> W E B  </title>
+<h1 id="titulo" style="text-align: center;">Este es un blog de prueba</h1>
+        <style>
+            table, th, td {
+                border: 1px solid black
+            }
+        </style>
+</head>    
 <body>
-    <h1> Hola chaval</h1>
+        <h3>E j e m p l o D e L i s t a s</h3>
+    <!-- ul es lista no ordenada-->
+        <ul>
+            <li>Objeto 1</li>
+            <li>Objeto 3</li>
+            <li>Objeto 2</li>
+                <ol>
+                    <li style="list-style-type: lower-alpha ;">SubObjeto 1</li>                    
+                    <li style="list-style-type: lower-alpha;">SubObjeto 2</li>                    
+                    <li style="list-style-type: lower-alpha;">SubObjeto 3</li>                    
+                </ol>
+        </ul>
+    <!--ol es lista ordenada-->
+        <ol>
+            <li>Texto 1</li>
+            <li>Texto 2</li>
+            <li>Texto 3</li> 
+                <ol>
+                    <li style="list-style-type: lower-roman;">Subejemplo 1</li>
+                    <li style="list-style-type: lower-roman;">Subejemplo 2</li>
+                    <li style="list-style-type: lower-roman;">Subejemplo 3</li>
+                </ol>
+            </li>
+        </ol>
+        <hr>
+        <h3>E j e m p l o D e T a b l a s</h3>
+        <table style="width: 400px;">
+            <thead>
+                <!--tr es Fila de una tabla-->
+            <tr>
+                <!-- th es la cabecera?xd-->
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <!--td es para definir elementos estandares?xd-->
+                <td>Lapicero</td>
+                <td>$4.99</td>
+            </tr>
+            <tr>
+                <td>Calculadora cientifica</td>
+                <td>$35.99</td>
+            </tr>
+            <tr>
+                <td>Colores fantasy</td>
+                <td>$38.00</td>
+            </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: $78.98</td>
+            </tfoot>
+        </table>
+        <hr>
+        <h3>E j e m p l o D e F o r m u l a r i o s</h3>
+        <form action="/formulario" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"/>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Introduce tu apellido"/> <br>
+            <label for="comentario">Consejos y sugerencias</label> <br>
+            <textarea rows="10" cols="50" id="comentario" placeholder="Dejanos un comentario" name="comentario"></textarea>
+            <br>
+            <button type="button">Enviar</button>
+        </form>
+        <hr>
+        <h3>E j e m p l o D e A r t i c u l o ?</h3>
+        <article>
+            <h4> Smite team </h4>
+            <img src="img/rst.png" style="height: 250px;">
+        </article>
+        <article>
+            <h4> Con esta imagen puedes aprender más sobre tradeos en Minecraft </h4>
+            <img src="img/tradeos.jpg" style=" width: 450px;">
+        </article>
 </body>
+<hr>
+<footer>
+    <a href="#titulo">Ir al comienzo de la página</a>
+    <a target="_blank" href="https://www.smitegame.com"> Aprenda más sobre smite </a>
+</footer>
 </html>
